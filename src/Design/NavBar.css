@@ -1,0 +1,22 @@
+.navBar {
+  background-color: #222;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.pageNav {
+  color: white;
+}
+
+.pageNav:hover {
+  background-color: grey;
+}
+
+#biz-head {
+  color: crimson;
+  font-size: 2em;
+}
+
+#navTog {
+  background-color: grey;
+}
