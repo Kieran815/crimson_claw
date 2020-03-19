@@ -9,13 +9,13 @@ export default class ItemCard extends Component {
     const setStore = this.props.storage.map(item => (
       <div className="col-md-4" key={item.id}>
         <div className="thumbnail text-center">
-          <a href={`#${item.email}`} onClick={(e) => this.props.handleAddToCart(e, item)} >
+          <a href={`#${item.email}`} onClick={(e) => this.props.addToCart(e, item)} >
             <img src={itemImg} alt={item.id} />
             <p>{faker.commerce.productName()}</p>
           </a>
           <div>
             <b>{item.id}</b>
-            <button className="btn btn-default" onClick={(e) => this.props.handleAddToCart(e, item)} >Add to Cart</button>
+            <button className="btn btn-default" onClick={(e) => this.props.addToCart(e, item)} >Add to Cart</button>
           </div>
         </div>
       </div>

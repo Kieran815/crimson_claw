@@ -22,11 +22,6 @@ class Filter extends React.Component {
             </select>
           </label>
         </div>
-
-        <div className="col-md-4">
-
-        </div>
-
       </div>
     );
   }
